@@ -93,7 +93,7 @@ with st.sidebar:
 
     if source == "⚡ Live API":
         #api_key = st.text_input("Pandascore API key", type="password", placeholder="paste key here")
-        api_key='ygsPj9hioceu6V8Npsyhvqy2Q3wwcdzITKVyN1PJFrtLlQALyRo'
+        api_key='PANDASCORE_API_KEY'
         c1, c2 = st.columns(2)
         with c1:
             if st.button("🔄 Refresh", use_container_width=True):
