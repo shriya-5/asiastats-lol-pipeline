@@ -4,6 +4,9 @@ Real-time data engineering pipeline ingesting League of Legends match data
 from the Pandascore API, normalizing it into a structured schema, and serving 
 live analytics on an interactive dashboard.
 
+<img width="1844" height="956" alt="image" src="https://github.com/user-attachments/assets/2a71d9a5-6cd7-4b05-815b-87dc8a42834d" />
+
+
 ## Architecture
 
 Pandascore API → pandas normalization → PostgreSQL (next) → Streamlit dashboard
